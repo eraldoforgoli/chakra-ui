@@ -1,5 +1,20 @@
 # Change Log
 
+## 1.7.5
+
+### Patch Changes
+
+- [`ed79a9cfb`](https://github.com/chakra-ui/chakra-ui/commit/ed79a9cfb35fec67bfe95bbc2a04a11d0d00fbfe)
+  [#4842](https://github.com/chakra-ui/chakra-ui/pull/4842) Thanks
+  [@takethefake](https://github.com/takethefake)! - Fixed a bug in `useToken`
+  where it wasn't possible to resolve some tokens which contain dots like
+  `useToken('space','1.5')`. (see #4834)
+- Updated dependencies
+  [[`cd0893c56`](https://github.com/chakra-ui/chakra-ui/commit/cd0893c561d8c72b69db7c03d10adae752468a4f)]:
+  - @chakra-ui/utils@1.8.4
+  - @chakra-ui/color-mode@1.1.14
+  - @chakra-ui/styled-system@1.12.4
+
 ## 1.7.4
 
 ### Patch Changes
